@@ -25,10 +25,10 @@ This PowerShell script creates a RESTful API that allows remote clients to perfo
 2. Run the Docker container:
 
     ```sh
-    docker run -d -p 8999:8999 posh-rest
+    docker run -d -p 80:80 posh-rest
     ```
 
-The script will start listening for requests on port 8999.
+The script will start listening for requests on port 80.
 
 #### Without Docker
 
